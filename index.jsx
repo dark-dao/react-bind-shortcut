@@ -1,4 +1,15 @@
 'use strict';
+/*
+ *
+ * boundKeys - [Array] - An array whose elements are the names of the keys
+ * boundShortcuts - [Array] - Array elements of which are the names of key combinations
+ * holdTimer - [int] - The value of the timer (ms), at the expiration of which the event "hold" of the key
+ * pressKeyChanged(keysPressed) - Method called in the child component
+ * holdKeyChanged(shortcutPressed) - Method called in the child component to get the hold shortcuts
+ *
+ * If not pass boundKeys and boundShortcuts, then the method pressKeyChanged() will be called when any keys are pressed
+ *
+ */
 import React from 'react';
 import _ from 'lodash';
 
