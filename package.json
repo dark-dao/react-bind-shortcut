@@ -1,6 +1,6 @@
 {
   "name": "react-bind-shortcut",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Key event binding for react.js",
   "main": "index.js",
   "scripts": {
