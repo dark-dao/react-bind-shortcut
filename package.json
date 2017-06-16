@@ -1,0 +1,31 @@
+{
+  "name": "react-bind-shortcut",
+  "version": "0.0.1",
+  "description": "Key event binding for react.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "binding shortcuts",
+    "react keypress",
+    "key events",
+    "shortcuts",
+    "keyboard",
+    "keypress",
+    "reactjs",
+    "react",
+    "es6"
+  ],
+  "author": "Selyutin Ivan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dark-dao/react-bind-shortcut"
+  },
+  "homepage": "https://github.com/dark-dao/react-bind-shortcut",
+  "dependencies": {
+    "react": "^0.14.0",
+    "lodash": "^2.4.2"
+  }
+}
