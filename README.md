@@ -12,11 +12,11 @@ const ReactComponent = React.createClass({
 
   ...
 
-  holdKeyChanged(shortcutPressed) {
-    // pressed shortcuts
+  holdKeyChanged(holdKey) {
+    // hold key name
   },
   pressKeyChanged(keysPressed) {
-    // pressed keys
+    // pressed keys or shortcuts names
   },
 
   ...
@@ -45,6 +45,6 @@ export default KeyBinding(ReactComponent, boundKeys, boundShortcuts);
 
 // if not pass boundKeys and boundShortcuts, then the method pressKeyChanged()
 // will be called when any keys are pressed
-export default KeyBinding(ReactComponent); 
+export default KeyBinding(ReactComponent);
 
 ```
