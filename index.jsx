@@ -206,7 +206,9 @@ export default (WrappedComponent, boundKeys, boundShortcuts, holdTimer) => {
         }
         render() {
             return (
-                <WrappedComponent ref="wrappedComponent" {...this.props} {...this.state}/>
+                let props = this.props;
+                let state = this.state;
+                return React.cloneElement(WrappedComponent, {ref: "wrappedComponent", props, state});
             );
         }
     }
