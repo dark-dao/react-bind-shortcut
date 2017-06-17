@@ -3,6 +3,10 @@
 The component that receives the values of the pressed keyboard keys
 
 [![NPM](https://nodei.co/npm/react-bind-shortcut.png)](https://nodei.co/npm/react-bind-shortcut/)
+# Install
+  ```
+    npm i react-bind-shortcut
+  ```
 # How use
 ```js
 import KeyBinding from 'react-bind-shortcut';
